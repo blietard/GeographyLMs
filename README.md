@@ -16,7 +16,7 @@ Are there any meaningful relations in LMs vector representations of geographical
       - Indirect relation : “He drives from A to B” 
     - Compute RL distance between A and B
     - Compute VS between A and B contextual representations
-          *(to get word embeddings, maybe use INRIA’s mangoes pckg)*
+          *(to get word embeddings, maybe use INRIA’s mangoes[https://gitlab.inria.fr/magnet/mangoes/-/tree/master/] pckg)*
 * **Cardinal relations** ? North, South, etc.  
   - “Fact checking” ?? “A is in North Hemisphere” and compare sentence embeddings when it is **true or false** // also possible with “A is north of B” for each pair of points
   - With simple context “my favorite city[/country] is”, compare VS between 2 points according to their **relative cardinal position**.
