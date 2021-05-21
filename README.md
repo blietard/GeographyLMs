@@ -1,19 +1,19 @@
-#GEOGRAPHICAL RELATIONS WITH LANGUAGE MODELS
+# GEOGRAPHICAL RELATIONS WITH LANGUAGE MODELS
 
 Are there any meaningful relations in LMs vector representations of geographical nouns (cities/countries/etc) that correspond to real-life spatial relations between entities ? 
 
-##Useful links :
+## Useful links :
 https://www.dropbox.com/s/mqux75f5cu0ndav/bert2maps.zip
 https://www.sbert.net/docs/pretrained_models.html
  
 
-##Ideas
+## Ideas
 * Compare pairs of real Life (RL) distance / vector similarity (VS) between 2 points (Anders’s code)
 * Display in 2D such pairs (x: RL dist / y: VS)
 * Compare relations of closeness/far distance between two points
     - Nlp context : 
-      -Direct relation : “A is close from B”
-      -Indirect relation : “He drives from A to B” 
+      - Direct relation : “A is close from B”
+      - Indirect relation : “He drives from A to B” 
     - Compute RL distance between A and B
     - Compute VS between A and B contextual representations
           (to get word embeddings, maybe use INRIA’s mangoes pckg)
