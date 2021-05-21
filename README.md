@@ -3,8 +3,8 @@
 Are there any meaningful relations in LMs vector representations of geographical nouns (cities/countries/etc) that correspond to real-life spatial relations between entities ? 
 
 ## Useful links :
-* https://www.dropbox.com/s/mqux75f5cu0ndav/bert2maps.zip
-* https://www.sbert.net/docs/pretrained_models.html
+* [dropbox](https://www.dropbox.com/s/mqux75f5cu0ndav/bert2maps.zip)
+* [sbert models](https://www.sbert.net/docs/pretrained_models.html)
  
 
 ## Ideas
