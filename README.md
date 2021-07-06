@@ -19,3 +19,28 @@
   - “Fact checking” ?? “A is in North Hemisphere” and compare sentence embeddings when it is **true or false** // also possible with “A is north of B” for each pair of points
   - With simple context “my favorite city[/country] is”, compare VS between 2 points according to their **relative cardinal position**.
       *“If A is north of B, we observe a shift in vector” or smthg like that ???*
+
+
+---------------------------------------------------------
+
+RANDOM NOTES
+* trying vector algebra between different cities (1 city in the middle of 2 others blabla)
+* trying static models
+* similarity matrices from representations spaces and comparison
+        - RSA between what ? What should be the two variables of Kendall correlation ?
+
+
+
+DATA SIDE
+* try with country names
+* try with capitals
+* try with biggest cities (>1M)
+* etc.
+
+EXTRACTION SIDE
+* try with embeddings from city name alone
+* try multiple (random sampled ?) contexts
+
+MODEL SIDE
+* try with linear regression
+* try with feature select
